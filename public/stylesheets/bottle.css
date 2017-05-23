@@ -1,0 +1,417 @@
+/*作者：Zev*/
+
+.warp {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.warp .header {
+	width: 100%;
+	height: 200px;
+}
+
+.header .headTop {
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.headTop .logo img {
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	margin-top: 40px;
+}
+
+.headTop span img {
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+.nav {
+	width: 100%;
+	height: 50px;
+	background: deeppink;
+	position: relative;
+	bottom: -30px;
+}
+
+.nav ul {
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+}
+
+.nav ul li {
+	float: left;
+	margin-left: 60px;
+	line-height: 50px;
+}
+
+.nav ul li a {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.nav ul .sou {
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	right: 6%;
+}
+
+.nav ul .sou .inOne {
+	width: 200px;
+	height: 30px;
+	margin-top: 8px;
+	padding: 1px 0;
+	text-indent: 8px;
+	border: none;
+	font-size: 14px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.nav ul .sou .inTwo {
+	width: 50px;
+	height: 32px;
+	background: darkorange;
+	margin-top: 6px;
+	margin-left: -8px;
+	outline: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#banner {
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+	position: relative;
+}
+
+#wheel {
+	width: 800%;
+	height: 380px;
+}
+.case {
+	width: 100%;
+	height: 100%;
+}
+
+.case img {
+	width: 100%;
+	height: 100%;
+}
+
+#pagintion {
+	position: absolute;
+	left: 50%;
+	margin-left: -1rem;
+	bottom: 16px;
+	z-index: 99;
+}
+.banner {
+	width: 100%;
+	height: 160px;
+	position: relative;
+}
+.zhang_banner {
+	height: 380px;
+	width: 100%;
+	position: relative;
+}
+
+.zhang_banner>ul {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+}
+
+.zhang_banner>ul>li {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.zhang_banner>ul>li>img {
+	width: 100%;
+	height: 100%;
+}
+
+.zhang_bannerNav {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+	margin-top: -380px;
+}
+
+.zhang_bannerNavLeft {
+	width: 160px;
+	height: 100%;
+	background: rgba(255, 255, 255, .8);
+	float: left;
+	box-shadow: -2px 2px 3px #c0c0c0;
+}
+
+.zhang_bannerNavLeft>ul {
+	width: 100%;
+	height: 100%;
+}
+
+.zhang_bannerNavLeft>ul>li {
+	width: calc(100% - 30px);
+	height: calc(calc(100% / 8) - 15px);
+	padding-left: 30px;
+	/*line-height: 48px;*/
+	cursor: pointer;
+	padding-top: 15px;
+}
+
+.zhang_bannerNavLeft>ul>li>i {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url(../images/sub_logo1.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(2)>i {
+	background: url(../images/sub_logo2.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(3)>i {
+	background: url(../images/sub_logo3.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(4)>i {
+	background: url(../images/sub_logo4.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(5)>i {
+	background: url(../images/sub_logo5.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(6)>i {
+	background: url(../images/sub_logo6.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(7)>i {
+	background: url(../images/sub_logo7.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li:nth-child(8)>i {
+	background: url(../images/sub_logo8.png)no-repeat 100% 100%;
+}
+
+.zhang_bannerNavLeft>ul>li>span {
+	color: #999;
+	font-size: 14px;
+	position: relative;
+	top: -3px;
+	color: #fa4b99;
+}
+.zhang_bannerNavLeft>ul>li>span>a{
+	color: #fa4b99;
+}
+
+.sub_nav {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.commodity {
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.commodity>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.commodity>ul>li{
+	width: 19.2%;
+	height: 100%;
+}
+
+.commodity>ul>li>.commodityOne{
+	width: 100%;
+	height: 335px;
+}
+
+.commodity>ul>li>.commodityOne>img{
+	width: 100%;
+	height: 100%;
+}
+
+.commodity>ul>li>p:nth-child(2){
+	font-size: 14px;
+	text-align: center;
+	height: 30px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+.commodity>ul>li>p:nth-child(3){
+	font-size: 14px;
+	text-align: center;
+	height: 40px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+.commodity>ul>li>p:nth-child(3)>span{
+	color: #ed3da1;
+}
+
+.sub_nav_center {
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #ee4165;
+	line-height: 40px;
+}
+
+.flip{
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+}
+.flip_NextPrev{
+	width: 200px;
+	height: 40px;
+	padding: 5px 0;
+	margin: 0 auto;
+}
+.flip_NextPrev>a{
+	display: block;
+	width: 80px;
+	height: 30px;
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	color: #000;
+	font-size: 13px;
+}
+.flip_NextPrev>a:nth-child(2){
+	width: 20px;
+	height: 30px;
+	border: none;
+	color: #ed3da1;
+	margin: 0 5px;
+}
+
+/*footer start*/
+
+
+footer {
+	width: 100%;
+	height: 300px;
+	background: #f5f5f5;
+	margin-top: 10px;
+}
+
+.footer_center {
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.foooter_center_left {
+	width: 225px;
+	height: 300px;
+	float: left;
+}
+
+.foooter_center_left span {
+	width: 225px;
+	height: 30px;
+	font-size: 20px;
+	color: #717171;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+}
+
+.ly_photo {
+	width: 225px;
+	height: 95px;
+	float: left;
+}
+
+p.webchat {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 15px;
+}
+
+p.ly_call {
+	width: 225px;
+	height: 30px;
+	font-size: 18px;
+	color: #717171;
+	float: left;
+}
+
+div.ly_over {
+	width: 750px;
+	height: 300px;
+	float: left;
+	display: block;
+}
+
+div.ly_over ul {
+	width: 187px;
+	height: 270px;
+	padding-top: 30px;
+	float: left;
+}
+
+div.ly_over ul li:first-child {
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+}
+
+div.ly_over ul li {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	color: #717171;
+}
+
+div.ly_erweima {
+	width: 225px;
+	height: 100%;
+	float: right;
+}
+
+div.ly_erweima img {
+	width: 180px;
+	height: 180px;
+	display: block;
+	margin: 60px auto;
+}
+
+
+
+/*footer end*/

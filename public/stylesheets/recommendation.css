@@ -1,0 +1,230 @@
+/*作者：Zev*/
+.warp{
+	width: 100%;
+	/*height: 2500px;*/
+	overflow: hidden;
+}
+.warp .header{
+	width: 100%;
+	height: 170px;
+}
+.header .headTop{
+	width: 1060px;
+	height: 120px;
+	margin: 0 auto;
+}
+.headTop .logo img{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	margin-top: 40px;
+}
+.headTop span img{
+	margin-left: 250px;
+	margin-top: 20px;
+}
+.nav{
+	width: 100%;
+	height: 50px;
+	background: deeppink;
+	position: relative;
+}
+.nav ul{
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+}
+.nav ul li{
+	float: left;
+	margin-left: 60px;
+	line-height: 50px;
+}
+.nav ul li a{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.nav ul .sou{
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	right: 6%;
+}
+.nav ul .sou .inOne{
+	width: 200px;
+	height: 30px;
+	margin-top: 8px;
+	padding: 1px 0;
+	text-indent: 8px;
+	border: none;
+	font-size: 14px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.nav ul .sou .inTwo{
+	width: 50px;
+	height: 32px;
+	background: darkorange;
+	margin-top: 6px;
+	margin-left: -8px;
+	outline: none;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.active{
+	width: 100%;
+	height: 926px;
+}
+.active ul{width: 1181px;
+/*height: 1383px;*/
+margin: 0 auto;
+margin-top: 30px;
+}
+.active ul li{width:240px ;
+height:432px;
+float: left;
+margin-left: 55px;
+margin-top: 20px;
+text-align: center;}
+.imge{
+	width: 240px;
+	height: 352px;
+	position: relative;
+	overflow: hidden;
+}
+.active ul li img{display: block;
+	width:250px;
+height: 362px;
+text-align: center;}
+.active ul li p{
+	width: auto;
+	height:35px;
+	line-height: 35px;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #666;
+	font-family: "微软雅黑";
+	border-bottom: 1px dashed #ccc;
+}
+.active ul li p:nth-child(3){
+	border-bottom: none;
+	color: #ed3da1;
+	font-size: 20px;
+	text-align: center;
+}
+.mor{/*display: block;*/
+	font-size: 12px;}
+.big{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -25px 0 0 -25px;
+	border-radius: 50%;
+	display: none;
+	color: white;
+	
+}
+footer {
+	width: 100%;
+	height: 300px;
+	background: #f5f5f5;
+	margin-top: 50px;
+}
+
+.footer_center {
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.foooter_center_left {
+	width: 225px;
+	height: 300px;
+	float: left;
+}
+
+.foooter_center_left span {
+	width: 225px;
+	height: 30px;
+	font-size: 20px;
+	color: #717171;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+}
+
+.ly_photo {
+	width: 225px;
+	height: 95px;
+	float: left;
+}
+
+p.webchat {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 15px;
+}
+
+p.ly_call {
+	width: 225px;
+	height: 30px;
+	font-size: 18px;
+	color: #717171;
+	float: left;
+}
+
+div.ly_over {
+	width: 750px;
+	height: 300px;
+	float: left;
+	display: block;
+}
+
+div.ly_over ul {
+	width: 187px;
+	height: 270px;
+	padding-top: 30px;
+	float: left;
+}
+
+div.ly_over ul li:first-child {
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+}
+
+div.ly_over ul li {
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	color: #717171;
+}
+
+div.ly_erweima {
+	width: 225px;
+	height: 100%;
+	float: right;
+}
+
+div.ly_erweima img {
+	width: 180px;
+	height: 180px;
+	display: block;
+	margin: 60px auto;
+}
+
+
+
